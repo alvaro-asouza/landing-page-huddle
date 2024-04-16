@@ -1,0 +1,60 @@
+
+
+body{
+    display: flex;
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo .container{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    padding: 70px;
+}
+
+.container .logo{
+    display: flex;
+    width: 200px;
+}
+
+.container .apresentacao{
+    display: flex;
+    width: 600px;
+}
+
+.conteudo .informacoes{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    color: #fff;
+}
+
+.conteudo .informacoes .title{
+    display: flex;
+    margin-top: -100px;
+    width: 250px;
+}
+
+.conteudo .informacoes p{
+    display: flex;
+    margin-top: 30px;
+}
+
+.conteudo .informacoes a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: #fff;
+    width: 130px;
+    height: 40px;
+    overflow: hidden;
+}
