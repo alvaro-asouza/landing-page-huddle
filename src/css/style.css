@@ -1,22 +1,25 @@
 
 
 body{
-    display: flex;
+    display: grid;
     background: url(../images/bg-desktop.svg) no-repeat;
     background-color: hsl(257, 40%, 49%);
+    font-family: "Open Sans", sans-serif;
 }
 
 .conteudo{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .conteudo .container{
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 60px;
     padding: 70px;
+    margin-top: -30px;
 }
 
 .container .logo{
@@ -32,19 +35,23 @@ body{
 .conteudo .informacoes{
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 455px;
     color: #fff;
 }
 
 .conteudo .informacoes .title{
     display: flex;
-    margin-top: -100px;
-    width: 250px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 45px;
+    margin-top: -30px;
+    width: 300px;
 }
 
 .conteudo .informacoes p{
     display: flex;
     margin-top: 30px;
+    font-weight: 400;
 }
 
 .conteudo .informacoes a{
@@ -52,9 +59,43 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    border-radius: 15px;
+    border-radius: 20px;
     background-color: #fff;
     width: 130px;
     height: 40px;
     overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.705);
+}
+
+.conteudo .informacoes a:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.contato {
+   display: flex;
+   justify-content: flex-end;
+   margin-top: -50px;
+   padding: 0 70px;
+}
+
+.contato .social a i{
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+    border: 1px solid white;
+    border-width: 1.9px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contato .social .fa-facebook-f{
+    font-size: 15px;
+    width: 38px;
+    text-align: center;
+}
+
+.contato .social a i:hover{
+    border-color: hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
 }
