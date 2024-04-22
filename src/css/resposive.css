@@ -1,0 +1,50 @@
+@media (max-width: 768px){
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .conteudo .informacoes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudo .informacoes p{
+        padding: 0 30px;
+    }
+
+    .conteudo .logo{
+        width: 150px;
+    }
+
+    .conteudo .apresentacao{
+        width: 300px;
+    }
+
+    .contato{
+        display: flex;
+        justify-content: center;
+    }
+    .contato .redes-sociais{
+        display: flex;
+        justify-content: center;
+        top: 200px;
+        padding-bottom: 20px;
+        align-items: center;
+        margin: auto;
+    }
+    
+}
+
+@media (max-width: 425px){
+    .conteudo .informacoes p{
+        display: flex;
+        flex-direction: column;
+        padding: 0 80px;
+        font-size: 16px;
+    }
+}
