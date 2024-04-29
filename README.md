@@ -29,4 +29,12 @@ Your users should be able to:
 
 </div>
 
+## Active states
+
+<div align="center">
+  
+  <img align="center" src="./src/design/active-states.jpg" width="450px" height="300px" alt="imagem mobile">
+
+</div>
+
 
